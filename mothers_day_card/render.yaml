@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: mothers-day-card
+    env: python
+    plan: free
+    buildCommand: ""
+    startCommand: python app.py
